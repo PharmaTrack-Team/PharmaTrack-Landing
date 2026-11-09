@@ -47,7 +47,7 @@ HTML5 · CSS3 · JavaScript Vanilla · Git · GitHub · Google Fonts (con altern
 `main` guarda la versión principal, `develop` integra avances y `feature/landing-page` contiene el desarrollo de esta funcionalidad. La rama `feature/landing-page` se crea desde `develop`. Ver [GUIA_GIT_GITHUB.md](GUIA_GIT_GITHUB.md).
 
 ## Autores
-**Por completar con los integrantes reales del equipo:**
+
 - Jahuancama Tinco José Francisco(U202421066)
 - Sinche pascual, fernando kenedy(u20231e972)
 - Ordaya Guerrero, Paolo(U202312723)
