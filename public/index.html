@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PharmaTrack es una propuesta de gestión de lotes, vencimientos y movimientos para farmacias y boticas.">
+  <meta name="theme-color" content="#f8f7f2">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <script src="assets/scripts/main.js" defer></script>
+  <title>PharmaTrack — Inventario que se anticipa</title>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido principal</a>
+  <header class="topbar" id="arriba">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#arriba" aria-label="PharmaTrack — Inicio"><img src="assets/images/logo.svg" width="36" height="36" alt=""><span>pharma<span>track</span><i>.</i></span></a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú" aria-controls="navLinks" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="navlinks" id="navLinks" aria-label="Navegación principal"><a href="#desafio">El desafío</a><a href="#solucion">Solución</a><a href="#funcionalidades">Funciones</a><a href="#laboratorio">Demo</a><a class="nav-action" href="#contacto">Conoce el proyecto <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" aria-labelledby="titulo-hero">
+      <div class="wrap hero-layout">
+        <div class="hero-left">
+          <div class="micro-label"><span class="pulse"></span> PROPUESTA ACADÉMICA · INVENTARIO FARMACÉUTICO</div>
+          <h1 id="titulo-hero">Que no se te pase <em>ningún vencimiento.</em></h1>
+          <p class="hero-description">Deja de perseguir hojas de cálculo. Visualiza tus lotes, anticipa alertas y organiza tus medicamentos desde un solo lugar.</p>
+          <div class="button-line"><a href="#laboratorio" class="button button-dark">Probar demo de lotes <span aria-hidden="true">↗</span></a><a href="#solucion" class="text-button">Descubre cómo funciona <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-social"><div class="avatars" aria-hidden="true"><span>F</span><span>A</span><span>Q</span></div><p>Diseñado pensando en <b>farmacias, administradores y profesionales del sector.</b></p></div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-float float-a"><span class="mini-circle">✓</span><div><strong>Prioridad FEFO</strong><small>Primero vence, primero sale</small></div></div>
+          <div class="product-panel" role="img" aria-label="Panel ilustrativo de PharmaTrack con tres lotes y estado de vencimiento, no representa datos reales">
+            <div class="product-top"><div class="dots"><i></i><i></i><i></i></div><span>Vista conceptual del sistema</span><span class="product-ellipsis">•••</span></div>
+            <div class="product-body"><div class="dash-label">INVENTARIO / RESUMEN</div><div class="dash-title"><div><strong>Buenos días, equipo <span>✳</span></strong><p>Así va tu inventario hoy.</p></div><div class="icon-tile">▦</div></div>
+              <div class="mini-cards"><div class="mini-card"><small>Lotes registrados</small><strong>248</strong><span>↗ Ejemplo</span></div><div class="mini-card highlight"><small>Por vencer</small><strong>12</strong><span>● Atención</span></div><div class="mini-card"><small>Productos activos</small><strong>83</strong><span>✓ En catálogo</span></div></div>
+              <div class="small-table-title"><b>Próximos vencimientos</b><span>Vista de ejemplo</span></div>
+              <div class="stock-row"><span class="pill-icon lavender">P</span><div><b>Paracetamol 500 mg</b><small>Lote PT-024</small></div><time>15 dic. 2026</time><span class="pill warning">Prioritario</span></div>
+              <div class="stock-row"><span class="pill-icon mint">I</span><div><b>Ibuprofeno 400 mg</b><small>Lote PT-038</small></div><time>20 feb. 2027</time><span class="pill okay">Vigente</span></div>
+              <div class="stock-row"><span class="pill-icon yellow">A</span><div><b>Amoxicilina 500 mg</b><small>Lote PT-045</small></div><time>05 may. 2027</time><span class="pill okay">Vigente</span></div>
+              <div class="dash-bottom"><span></span><span></span><span></span><small>Los valores mostrados son ilustrativos</small></div>
+            </div>
+          </div>
+          <div class="hero-float float-b"><span class="float-spark">✳</span><div><strong>Más claridad</strong><small>Sin perder de vista cada lote</small></div></div>
+        </div>
+      </div>
+      <div class="wrap hero-foot"><span>MENOS IMPROVISACIÓN, MÁS CONTROL.</span><span class="scroll-call">DESLIZA PARA EXPLORAR <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="issue-section section-pad" id="desafio"><div class="wrap issue-grid"><div class="issue-label"><span class="section-number">01 / EL DESAFÍO</span><h2>Un pequeño descuido puede causar un <em>gran problema.</em></h2></div><div class="issue-right"><p>Cuando la información está dispersa, resulta más difícil saber qué lote debe salir primero, qué productos están por vencer y cuáles necesitan reposición.</p><div class="problem-chips"><span>Registros dispersos</span><span>Vencimientos olvidados</span><span>Seguimiento manual</span></div></div></div></section>
+
+    <section class="solution-section section-pad" id="solucion"><div class="wrap"><div class="section-heading"><div><span class="section-number">02 / NUESTRA PROPUESTA</span><h2>Una vista clara de lo <em>importante.</em></h2></div><p>PharmaTrack propone una experiencia simple: registrar, identificar riesgos y tomar decisiones informadas sobre el inventario.</p></div><div class="solution-grid"><article class="solution-feature solution-feature-dark"><div class="feature-index">01 — CONTROL</div><div class="big-glyph">▤</div><h3>Todo tu inventario<br>en un lugar.</h3><p>Consulta productos, lotes, existencias y fechas de vencimiento sin saltar entre archivos.</p><div class="line-art" aria-hidden="true"><i></i><i></i><i></i><i></i></div></article><article class="solution-feature solution-feature-coral"><div class="feature-index">02 — ANTICIPACIÓN</div><div class="big-glyph">◷</div><h3>Actúa antes<br>del vencimiento.</h3><p>Identifica los lotes que necesitan atención y ordena su salida según la regla FEFO.</p><div class="coral-art" aria-hidden="true">↗</div></article><article class="solution-feature solution-feature-cream"><div class="feature-index">03 — SEGUIMIENTO</div><div class="big-glyph">⇄</div><h3>Una historia clara<br>de cada movimiento.</h3><p>La propuesta contempla el registro de entradas, salidas y ajustes para una mejor trazabilidad.</p><div class="cream-art" aria-hidden="true">✳</div></article></div></div></section>
+
+    <section class="modules-section section-pad" id="funcionalidades"><div class="wrap"><div class="section-heading"><div><span class="section-number">03 / FUNCIONALIDADES</span><h2>Lo esencial, <em>sin complicaciones.</em></h2></div><p>Estas son las capacidades previstas para la solución digital. La landing muestra su propuesta, no una plataforma productiva completa.</p></div><div class="module-grid"><article><div class="module-icon">⌗</div><h3>Gestión de lotes</h3><p>Información centralizada por medicamento, cantidad y fecha de vencimiento.</p></article><article><div class="module-icon">◉</div><h3>Alertas preventivas</h3><p>Señales visuales para identificar productos próximos a vencer.</p></article><article><div class="module-icon">⇅</div><h3>Rotación FEFO</h3><p>Prioridad a los lotes vigentes con la fecha de expiración más cercana.</p></article><article><div class="module-icon">▥</div><h3>Trazabilidad</h3><p>Historial de entradas, salidas, devoluciones y ajustes propuestos.</p></article></div></div></section>
+
+    <section class="lab-section section-pad" id="laboratorio"><div class="wrap lab-layout"><div class="lab-intro"><span class="section-number">04 / EXPLORA LA DEMO</span><h2>Un pequeño vistazo a <em>FEFO.</em></h2><p>Selecciona un medicamento. Nuestro simulador local ordenará los lotes disponibles y destacará cuál debe priorizarse por fecha de vencimiento.</p><div class="definition"><span>✳</span><p><b>FEFO significa</b> <i>First Expired, First Out</i>: el primero en vencer es el primero en salir. Se excluyen lotes vencidos o sin existencias.</p></div><small>Demo académica con fechas y cantidades ficticias. Fecha de referencia: 8 de noviembre de 2026.</small></div><div class="lab-ui"><div class="lab-ui-head"><div><span class="live-dot"></span> SIMULADOR DE INVENTARIO</div><span>V1.0 · LOCAL</span></div><label for="producto">¿Qué medicamento deseas revisar?</label><div class="lab-control"><select id="producto" aria-label="Medicamento"><option value="paracetamol">Paracetamol 500 mg</option><option value="ibuprofeno">Ibuprofeno 400 mg</option><option value="amoxicilina">Amoxicilina 500 mg</option></select><button type="button" id="evaluar" class="button button-dark">Evaluar <span>→</span></button></div><div class="table-hint"><span>LOTES ORDENADOS POR VENCIMIENTO</span><span>FEFO <b>↓</b></span></div><div id="lotes" class="lotes" aria-live="polite"></div><div id="recomendacion" class="recommendation" aria-live="polite"></div></div></div></section>
+
+    <section class="steps-section section-pad"><div class="wrap"><div class="section-heading"><div><span class="section-number">05 / EL RECORRIDO</span><h2>De la información a <em>la acción.</em></h2></div><p>Cuatro pasos sencillos que resumen cómo funcionaría la plataforma de inventario.</p></div><div class="step-list"><div><b>01</b><span class="step-circle">＋</span><h3>Registra</h3><p>Ingresa el medicamento, lote, cantidad y vencimiento.</p></div><div><b>02</b><span class="step-circle">⌕</span><h3>Visualiza</h3><p>Consulta existencias y revisa alertas en un panel.</p></div><div><b>03</b><span class="step-circle">↗</span><h3>Prioriza</h3><p>Ordena la salida de productos con criterio FEFO.</p></div><div><b>04</b><span class="step-circle">✓</span><h3>Verifica</h3><p>Revisa los movimientos y responsables registrados.</p></div></div></div></section>
+
+    <section class="faq-section section-pad"><div class="wrap faq-layout"><div><span class="section-number">06 / PREGUNTAS FRECUENTES</span><h2>Lo que debes <em>saber.</em></h2><p>Una mirada rápida al alcance actual del proyecto.</p></div><div class="faq-list"><details><summary>¿PharmaTrack ya funciona como sistema de farmacia?<span>+</span></summary><p>No. Este avance corresponde a una landing page académica. El panel y sus métricas son ilustrativos y el simulador FEFO funciona únicamente con información de prueba.</p></details><details><summary>¿Por qué es importante FEFO?<span>+</span></summary><p>Porque ayuda a planificar la salida de productos considerando cuál lote vigente vence primero. No sustituye las verificaciones profesionales ni la normativa aplicable.</p></details><details><summary>¿Qué tecnología se usa para esta página?<span>+</span></summary><p>HTML5, CSS3 y JavaScript nativo, sin frameworks de CSS. El proyecto está organizado para trabajarse en WebStorm y GitHub.</p></details></div></div></section>
+
+    <section class="contact-section" id="contacto"><div class="wrap contact-panel"><div><span class="section-number">SIGUIENTE PASO</span><h2>El futuro del inventario empieza <em>con claridad.</em></h2><p>Conoce la propuesta o deja un mensaje de prueba. Por ahora, la página no envía ni almacena datos.</p></div><form id="contactForm" novalidate><label for="nombre">Tu nombre</label><input id="nombre" name="nombre" autocomplete="name" maxlength="70" placeholder="¿Cómo te llamas?" required><label for="email">Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email" maxlength="100" placeholder="nombre@correo.com" required><button type="submit" class="button button-coral">Enviar mensaje de prueba <span>↗</span></button><p id="formFeedback" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a href="#arriba" class="brand" aria-label="Volver al inicio"><img src="assets/images/logo.svg" width="34" height="34" alt=""><span>pharma<span>track</span><i>.</i></span></a><span>© 2026 PharmaTrack · Proyecto académico · Diseño original</span><a href="#arriba">Volver arriba ↑</a></div></footer>
+</body>
+</html>
