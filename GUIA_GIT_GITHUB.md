@@ -38,13 +38,6 @@ git remote set-url origin https://github.com/TU_ORGANIZACION/PharmaTrack-Landing
 ```
 Comprueba que la organización es dueña del repositorio, no solo una colaboradora.
 
-## 5. Evidencias / PDF
-1. Abre la landing y haz una captura real del avance.
-2. Visita tu repositorio en GitHub y abre **Insights** para tomar una captura de esa sección.
-3. Incorpora ambas capturas en el documento PDF de entrega.
-4. Agrega el enlace real de GitHub y los nombres de los integrantes.
-5. Entrega el PDF según las indicaciones del profesor.
-
 ## Verificación final
 - [ ] Proyecto abre en WebStorm.
 - [ ] Git está habilitado.
